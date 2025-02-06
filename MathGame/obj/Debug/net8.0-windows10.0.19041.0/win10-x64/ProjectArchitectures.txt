@@ -1,0 +1,1 @@
+C:\Repositórios\Gerenciador-mobile\MathGame\MathGame.csproj;x64
