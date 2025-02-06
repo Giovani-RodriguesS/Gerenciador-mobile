@@ -1,4 +1,6 @@
-﻿namespace MathGame;
+﻿using Microsoft.Maui.Controls;
+
+namespace MathGame;
 
 public partial class MainPage : ContentPage
 {
@@ -58,8 +60,6 @@ public partial class MainPage : ContentPage
 		{
 			await DisplayAlert("Erro", "Entrada inválida!", "OK");
 		}
-
-
 		
 	}
 }
