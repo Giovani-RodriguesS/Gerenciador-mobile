@@ -29,12 +29,36 @@ public partial class MainPage : ContentPage
 	{
 		Random random= new Random();
 
-		int num1 = random.Next(1, 40);
-		int num2 = random.Next(1, 40);
-		string title = "Pergunta";
-		string message = "Quanto é" + num1 + " + " + num2 + "?";
+		int num1 = random.Next(1, 10);
+		int num2 = random.Next(1, 10);
 
-		int total = num1 + num2;
+		int op  = random.Next(0, 3);
+		
+		string title = "Pergunta";
+		string message = "Quanto é " + num1 + "  " + num2 + "?";
+		int total;
+
+		switch (op)
+		{
+			case 0:
+				message = "Quanto é " + num1 + " + " + num2 + "?";
+				total = num1 + num2;
+				break;
+			case 1:
+				message = "Quanto é " + num1 + " - " + num2 + "?";
+				total = num1 - num2;
+				break;
+			case 2:
+				message = "Quanto é " + num1 + " * " + num2 + "?";
+				total = num1 * num2;
+				break;
+			default:
+				message = "Quanto é " + num1 + " / " + num2 + "?";
+				total = num1 / num2;
+				break;
+		}
+
+
 
 		string text = await DisplayPromptAsync(title, message, "Sim", "Não");
 	
@@ -46,10 +70,14 @@ public partial class MainPage : ContentPage
 				score += 10;
 				text = "Acertou! +10 pontos";
 			}
-			else 
+			else if (resp != total && text.Length > 0)
 			{
 				score -= 10;
 				text = "Errou! -10 pontos";
+			}
+			else 
+			{
+				text = "Cancelado";
 			}
 
 			lbScore.Text = score.ToString();

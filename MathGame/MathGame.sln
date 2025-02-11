@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathGame", "MathGame\MathGame.csproj", "{7CEA4465-C8EF-22A7-2B71-39AAD5E3A6DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathGame", "MathGame.csproj", "{8E44D313-4A8D-F5FA-1FB5-C00DA569A7BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7CEA4465-C8EF-22A7-2B71-39AAD5E3A6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CEA4465-C8EF-22A7-2B71-39AAD5E3A6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CEA4465-C8EF-22A7-2B71-39AAD5E3A6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CEA4465-C8EF-22A7-2B71-39AAD5E3A6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E44D313-4A8D-F5FA-1FB5-C00DA569A7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E44D313-4A8D-F5FA-1FB5-C00DA569A7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E44D313-4A8D-F5FA-1FB5-C00DA569A7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E44D313-4A8D-F5FA-1FB5-C00DA569A7BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3A54F02A-8937-419A-9F0E-EA8A71E20A04}
+		SolutionGuid = {31DE654C-CB84-4736-8A2A-C92F1ABB5DDE}
 	EndGlobalSection
 EndGlobal

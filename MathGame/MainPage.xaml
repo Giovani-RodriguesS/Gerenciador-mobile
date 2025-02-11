@@ -17,7 +17,7 @@
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center" />
                     <Label x:Name="lbScore"
-                           Text="000"
+                           Text="0"
                            FontSize="25"
                            TextColor="White"
                            Background="Black"
@@ -31,14 +31,16 @@
                 </VerticalStackLayout>
             </Border>
 
+            <!--
             <Image Source="dotnet_bot.png"
                    HeightRequest="185"
                    Aspect="AspectFit" />
-            
+            -->
             <Button x:Name="BtnJogar"
                     Text="Jogar"
                     MinimumWidthRequest="140"
-                    HorizontalOptions="Center" />
+                    HorizontalOptions="Center"
+                    Clicked="BtnJogar_Clicked" />
 
             <Button x:Name="BtnZerar"
                     Text="Zerar"
