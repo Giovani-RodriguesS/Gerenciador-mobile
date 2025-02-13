@@ -17,6 +17,7 @@
                            FontSize="30"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center" />
+                           
                     <Label x:Name="lbScore"
                            Text="0"
                            FontSize="25"
@@ -26,20 +27,25 @@
                 </VerticalStackLayout>
             </Border>
 
-            <Image Source="mascote.png"
-                   HeightRequest="10"
+            <Image Source="mascote1.png"
+                   HeightRequest="300"
                    Aspect="AspectFit" />
+
             <Button x:Name="BtnJogar"
                     Text="Jogar"
+                    FontSize="20"
                     MinimumWidthRequest="140"
+                    MinimumHeightRequest="60"
                     HorizontalOptions="Center"
-                    Margin="0, 180, 0, 0"
+                    Margin="0, 20, 0, 0"
                     Clicked="BtnJogar_Clicked" />
 
             <Button x:Name="BtnZerar"
                     Text="Zerar"
+                    FontSize="20"
                     HorizontalOptions="Center"
                     MinimumWidthRequest="140"
+                    MinimumHeightRequest="60"
                     Clicked="BtnZerar_Clicked" />
         </VerticalStackLayout>
     </ScrollView>
