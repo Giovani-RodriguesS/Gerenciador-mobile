@@ -9,6 +9,7 @@
             <Border StrokeShape="RoundRectangle 10,10,10,10"
                     Background="#2B0B98"
                     WidthRequest="230"
+                    Margin="60"
                     Padding="30">
                 <VerticalStackLayout HorizontalOptions="Center">
                     <Label Text="SCORE"
@@ -22,24 +23,17 @@
                            TextColor="White"
                            Background="Black"
                            HorizontalTextAlignment="Center" />
-                    <Label Text="MathGame"
-                           HorizontalTextAlignment="Center"
-                           TextColor="White"
-                           Padding="20"
-                           FontSize="25"
-                           FontAttributes="Bold" />
                 </VerticalStackLayout>
             </Border>
 
-            <!--
-            <Image Source="dotnet_bot.png"
-                   HeightRequest="185"
+            <Image Source="mascote.png"
+                   HeightRequest="10"
                    Aspect="AspectFit" />
-            -->
             <Button x:Name="BtnJogar"
                     Text="Jogar"
                     MinimumWidthRequest="140"
                     HorizontalOptions="Center"
+                    Margin="0, 180, 0, 0"
                     Clicked="BtnJogar_Clicked" />
 
             <Button x:Name="BtnZerar"
