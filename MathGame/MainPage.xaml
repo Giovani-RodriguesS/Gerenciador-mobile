@@ -27,7 +27,7 @@
                 </VerticalStackLayout>
             </Border>
 
-            <Image Source="mascote1.png"
+            <Image Source="mascote.png"
                    HeightRequest="300"
                    Aspect="AspectFit" />
 
