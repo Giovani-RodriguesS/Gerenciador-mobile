@@ -1,7 +1,7 @@
 # 🎮 Desafio de Alteração no Math Game – Modo Game Over  
 
 ## 📌 Sobre o Math Game  
-O **Math Game** é um jogo de operações matemáticas, onde o jogador deve acertar as respostas para ganhar pontos. Atualmente, a pontuação funciona da seguinte forma:  
+O Math Game é um jogo de perguntas e respostas que desafia o jogador a resolver adições matemáticas. A cada resposta correta, o jogador ganha pontos e avança no jogo. Atualmente, a pontuação funciona da seguinte forma:  
 
 ✅ **Resposta correta:** +10 pontos  
 ❌ **Resposta errada:** -10 pontos  
@@ -10,34 +10,29 @@ Nosso desafio agora é modificar essa mecânica!
 
 ---
 
-## 🔧 Novo Requisito  
-Agora, ao invés de perder apenas 10 pontos ao errar uma resposta, o jogador receberá uma tela de **"Game Over"** e terá a opção de reiniciar o jogo.  
+## 🔧 Novos Requisitos  
+Sua missão agora será adicionar mais operações matemáticas às perguntas e implementar um botão de reinício.
 
 ---
 
 ## 🛠️ Roteiro para Implementação  
 
-### 1️⃣ Identificar a lógica de verificação da resposta  
-- Localize no código onde a resposta do jogador é verificada.  
-- Atualmente, se a resposta estiver errada, são subtraídos 10 pontos.  
+### 1️⃣ Expandir as Operações Matemáticas  
+- Identificar onde as perguntas são geradas e modificar a lógica para incluir subtração, multiplicação e divisão.  
+- Garantir que as novas operações sejam distribuídas de forma equilibrada.  
+- Adaptar a verificação da resposta para considerar as novas operações.  
 
-### 2️⃣ Substituir a subtração de pontos pelo Game Over  
-- Remova a linha que subtrai 10 pontos da pontuação.  
-- No lugar dela, chame uma função que exiba a tela de **"Game Over"**.  
+### 2️⃣ Implementar um Botão de Reinício  
+- Criar um botão **"Reiniciar"** na interface do jogo.  
+- Definir um evento para que, ao clicar, o jogo seja resetado.  
 
-### 3️⃣ Criar a Tela de "Game Over"  
-- Criar uma nova página ou um modal com a mensagem **"Game Over"**.  
-- Adicionar um botão **"Reiniciar"** para permitir que o jogador volte ao início do jogo.  
+### 3️⃣ Ajustar a Lógica de Reinício  
+- Quando o jogador clicar em **"Reiniciar"**:  
+  - A pontuação deve ser redefinida para o valor inicial.  
+  - O jogo deve voltar à primeira pergunta.  
+  - Qualquer mensagem de erro ou **Game Over** deve ser removida.  
 
-### 4️⃣ Implementar a lógica de reinício  
-- Quando o jogador clicar no botão **"Reiniciar"**:  
-  - A pontuação deve ser resetada.  
-  - O jogo deve recomeçar da primeira questão.  
-  - A tela de **"Game Over"** deve ser fechada.  
-
-### 5️⃣ Testar a funcionalidade  
-- Testar o jogo para garantir que o **Game Over** aparece corretamente ao errar uma resposta.  
-- Verificar se o botão de reinício reseta o jogo corretamente.  
-
-
- 
+### 4️⃣ Testar as Novas Funcionalidades  
+- Verificar se as novas operações estão sendo geradas corretamente.  
+- Testar se o botão **"Reiniciar"** reseta o jogo sem erros.  
+- Garantir que o jogo continua funcionando sem problemas após as mudanças.  
