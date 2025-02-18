@@ -1,4 +1,4 @@
-# Versões
+# Dependencias
 
 ## Imagens mostrando as versões de intalação e extensões necessarias
 
