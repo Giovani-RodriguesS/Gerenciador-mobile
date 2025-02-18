@@ -1,4 +1,4 @@
-# 📱 Gerar e Atualizar um APK do .NET MAUI no Android
+# Gerar e Atualizar um APK do .NET MAUI no Android
 
 ## 📌 1️⃣ Gerar o APK
 Abra o terminal e vá até a pasta do projeto.
