@@ -4,7 +4,8 @@
 O objetivo desta apresentação é compartilhar a experiência do grupo no desenvolvimento de um aplicativo mobile utilizando o framework MAUI. O Math Game é um jogo de perguntas e respostas que desafia o jogador a resolver adições matemáticas. A cada resposta correta, o jogador ganha pontos e avança no jogo.
 
 ## Versões Utilizadas
-*Aqui, adicionar as versões das ferramentas utilizadas, como .NET, MAUI, IDE, entre outras.*
+[Versões](Versões.md)
+
 
 ## Principais Conceitos
 - O .NET MAUI (“Multi-platform App UI”) é um framework para a criação de aplicativos multiplataforma.
@@ -36,18 +37,24 @@ O objetivo desta apresentação é compartilhar a experiência do grupo no desen
   dotnet publish -c Release -f net7.0-android /p:AndroidPackageFormat=apk
   ```
 
-## Execução e Testes
-- O jogo foi testado em dispositivos físicos para validar a interface e a jogabilidade.
-- Testamos a compatibilidade com diferentes versões do Android para garantir um bom desempenho.
+
 
 ## Principais Dificuldades
 - Configuração do ambiente de desenvolvimento.
 - Compatibilidade do MAUI com diferentes dispositivos.
 - Processo de geração do APK para distribuição.
 
+## Principais Soluções
+- Definir a variavel de ambiente adb.
+- Configurar o MAUI para VS code (extensões).
+- Instalar o OpenJDK.
+- Baixar um emulador com o android studio.
+- Alterar o csproj para compilar no Android e no Windows.
+
 ## Instalação no Celular
 - O APK gerado foi instalado diretamente no aparelho sem a necessidade de publicação na Play Store.
-- Para instalar, foi necessário permitir a instalação de aplicativos de fontes desconhecidas no Android.
+
+[Passo a passo](APK.md)
 
 ## Tela Principal
 *Abaixo está a imagem da tela principal do jogo:*
