@@ -19,10 +19,10 @@ Desde então, o .NET MAUI recebe melhorias contínuas, com versões aprimoradas 
 - Acesso a APIs Nativas – Suporte direto a funcionalidades como câmera, GPS e notificações.
   
 # Casos de Uso
-![Extensions](/Images/Microsoft_Azure_Logo.svg)
 
 - Aplicativos empresariais multiplataforma
 - Apps com interface rica e integração nativa
 - Aplicativos que reutilizam código entre mobile e desktop
 
 # Principal app feito com o MAUI
+![Extensions](/Images/Microsoft_Azure_Logo.svg.png)
