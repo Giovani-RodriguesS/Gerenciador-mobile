@@ -1,7 +1,7 @@
 # 🎮 Desafio de Alteração no Math Game – Modo Game Over  
 
 ## 📌 Sobre o Math Game  
-O Math Game é um jogo de perguntas e respostas que desafia o jogador a resolver adições matemáticas. A cada resposta correta, o jogador ganha pontos e avança no jogo. Atualmente, a pontuação funciona da seguinte forma:  
+O **Math Game** é um jogo de operações matemáticas, onde o jogador deve acertar as respostas para ganhar pontos. Atualmente, a pontuação funciona da seguinte forma:  
 
 ✅ **Resposta correta:** +10 pontos  
 ❌ **Resposta errada:** -10 pontos  
@@ -16,7 +16,6 @@ Sua missão agora será adicionar mais operações matemáticas às perguntas e 
 ---
 
 ## 🛠️ Roteiro para Implementação  
-
 ### 1️⃣ Expandir as Operações Matemáticas  
 - Identificar onde as perguntas são geradas e modificar a lógica para incluir subtração, multiplicação e divisão.  
 - Garantir que as novas operações sejam distribuídas de forma equilibrada.  
