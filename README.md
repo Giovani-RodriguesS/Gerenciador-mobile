@@ -59,7 +59,7 @@ O objetivo desta apresentação é compartilhar a experiência do grupo no desen
 ## Tela Principal
 *Abaixo está a imagem da tela principal do jogo:*
 
-![Imagem da tela principal do Math Game](caminho_para_imagem)
+![Imagem da tela principal do Math Game](./Images/Captura%20de%20tela%202025-02-19%20163035.png)
 
 ## Conclusão
 O desenvolvimento do Math Game foi uma experiência enriquecedora para o grupo. Apesar dos desafios enfrentados na configuração do ambiente e na geração do APK, conseguimos construir um jogo funcional e aprimorar nosso conhecimento sobre desenvolvimento mobile com MAUI.
