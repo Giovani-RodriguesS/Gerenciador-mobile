@@ -11,7 +11,7 @@ O objetivo desta apresentação é compartilhar a experiência do grupo no desen
 ## Instalação
 - Para iniciar o desenvolvimento com MAUI, é necessário instalar o .NET SDK, o Visual Studio com o suporte a MAUI e configurar um emulador ou dispositivo físico.
 
-Passo a passo para as instalações e depêndencias: [Clique aqui](Versões.md)
+[Passo a passo](Versões.md)
 
 ## Criação de Projetos e Componentes
 - Criamos o projeto utilizando o comando:
