@@ -15,9 +15,8 @@
             "name": "C#: MathGame",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}\\MathGame.csproj",
+            "projectPath": "${workspaceFolder}\\MathGame\\MathGame.csproj",
             "launchConfigurationId": "vscode-maui"
         }
-
     ]
 }
