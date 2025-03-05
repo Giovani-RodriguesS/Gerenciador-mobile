@@ -1,7 +1,5 @@
 # Dependencias
 
-## Imagens mostrando as versões de intalação e extensões necessarias
-
 # 1. Pré-requisitos
 Windows 10/11 (versão 21H2 ou superior)
 
