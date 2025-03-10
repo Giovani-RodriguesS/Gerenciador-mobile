@@ -1,7 +1,5 @@
 # Dependencias
 
-## Imagens mostrando as versões de intalação e extensões necessarias
-
 # 1. Pré-requisitos
 Windows 10/11 (versão 21H2 ou superior)
 
@@ -36,6 +34,7 @@ dotnet workload install maui
   - Android SDK Platform-Tools
 ## 3. Configure variáveis de ambiente (Windows):
 - ANDROID_HOME = C:\Users\[SEU_USUÁRIO]\AppData\Local\Android\Sdk
+- ADB = C:\Users\[SEU_USUÁRIO]\AppData\Local\Android\Sdk\adb.exe
 
 # 4. Extensões do VS Code
 - C# Dev Kit
@@ -70,13 +69,22 @@ sdkmanager "build-tools;34.0.0"
 ```
 
 
-![Extensions](/Images/WhatsApp%20Image%202025-02-18%20at%2009.53.25.jpeg)
+![Extensions](/Images/WhatsApp%20Image%202025-02-18%20at%2009.53.25.jpeg) 
+
+Extensão do VS Code para Java para Android
+
+
+![Extensions](/Images/csproj.png) Configuração do csproj para rodar o programa
 
 
 ![Extensions](/Images/WhatsApp%20Image%202025-02-18%20at%2009.50.34.jpeg)
+Emuladores Android
 
 ![Extensions](/Images/WhatsApp%20Image%202025-02-18%20at%2009.49.53.jpeg)
+Pacotes e Android SDK
 
 ![Extensions](/Images/WhatsApp%20Image%202025-02-18%20at%2009.50.06.jpeg)
+Plataformas para Android
 
 ![Extensions](/Images/WhatsApp%20Image%202025-02-18%20at%2009.55.28.jpeg)
+Configuração do Launch para Depurar o Maui no VS Code
